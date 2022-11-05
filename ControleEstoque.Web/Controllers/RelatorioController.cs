@@ -6,18 +6,14 @@ using System.Web.Mvc;
 
 namespace ControleEstoque.Web.Controllers
 {
-    public class HomeController : Controller
+    public class RelatorioController : Controller
     {
-        public ActionResult Index()
+        // GET: Relatorio
+        public ActionResult PosicaoEstoque()
         {
             return View();
         }
-
-        public ActionResult Sobre()
-        {
-            return View();
-        }
-        public ActionResult Contact()
+         public ActionResult Ressuprimento()
         {
             return View();
         }
